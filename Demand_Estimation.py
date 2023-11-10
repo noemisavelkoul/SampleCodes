@@ -72,7 +72,7 @@ certifi_path = certifi.where()
 print(certifi_path)
 
 ## Setting the path 
-os.environ['SSL_CERT_FILE'] = '/Users/mirkostanislao/Desktop/SLIDES/ESS/EIO/Python/venv/lib/python3.11/site-packages/certifi/cacert.pem'
+os.environ['SSL_CERT_FILE'] = ''
 # Scrape requested information with google-play-scraper and append it to the existing data frame
 
 ## Initialing lists to store the information 
